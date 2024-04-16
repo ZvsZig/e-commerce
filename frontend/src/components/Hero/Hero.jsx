@@ -5,6 +5,7 @@ import arrow_icon from '../Assets/arrow.png'
 import hero_image from '../Assets/hero_image.png'
 
 const Hero = () => {
+  console.log('test')
   return (
     <div className = "hero">
       <div className = "hero-left">
