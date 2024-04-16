@@ -14,7 +14,7 @@ const Navbar = () => {
         <img src={logo} alt='logo' />
         <p>SHOPPER</p>
       </div>
-      <ul className='nav-menu'>
+      <ul className='nav-menu'> //This is the navbar. It has no style and will react with a break underline when a link is clicked.
         <li onClick = {() => {setMenu("shop")}}><Link style={{ textDecoration: 'none'}} to = '/'>Shop</Link>{menu==="shop"?<hr/>:<></>}</li>
         <li onClick = {() => {setMenu("mens")}}><Link style={{ textDecoration: 'none'}} to = '/mens'>Men</Link>{menu==="mens"?<hr/>:<></>}</li>
         <li onClick = {() => {setMenu("womens")}}><Link style={{ textDecoration: 'none'}} to = '/womens'>Women</Link>{menu==="womens"?<hr/>:<></>}</li>

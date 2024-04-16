@@ -4,9 +4,10 @@ import hand_icon from '../Assets/hand_icon.png'
 import arrow_icon from '../Assets/arrow.png'
 import hero_image from '../Assets/hero_image.png'
 
-const Hero = () => {
+// This is the hero content or the stuff I am showcasing in the main section. 
+const Hero = () => { 
   console.log('test')
-  return (
+  return (    
     <div className = "hero">
       <div className = "hero-left">
         <h2>NEW ARRIVALS ONLY</h2>
