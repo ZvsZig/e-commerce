@@ -12,6 +12,7 @@ const ShopCategory = (props) => {
 
   return (
     <div className='shop-category'>
+      
       <div className='shopcategory-indexSort'>
         <p>
           <span>Showing 1-12</span> out of 36 products
