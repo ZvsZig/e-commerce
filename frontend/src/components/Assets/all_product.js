@@ -39,7 +39,7 @@ let all_product = [
   {
     id: 1,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    category: "clothes",
     image: p1_img,
     new_price: 50.0,
     old_price: 80.5,
@@ -47,7 +47,7 @@ let all_product = [
   {
     id: 2,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    category: "clothes",
     image: p2_img,
     new_price: 85.0,
     old_price: 120.5,
@@ -55,7 +55,7 @@ let all_product = [
   {
     id: 3,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    category: "clothes",
     image: p3_img,
     new_price: 60.0,
     old_price: 100.5,
@@ -63,7 +63,7 @@ let all_product = [
   {
     id: 4,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    category: "clothes",
     image: p4_img,
     new_price: 100.0,
     old_price: 150.0,
@@ -71,7 +71,7 @@ let all_product = [
   {
     id: 5,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    category: "clothes",
     image: p5_img,
     new_price: 85.0,
     old_price: 120.5,
@@ -79,7 +79,7 @@ let all_product = [
   {
     id: 6,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    category: "clothes",
     image: p6_img,
     new_price: 85.0,
     old_price: 120.5,
@@ -87,7 +87,7 @@ let all_product = [
   {
     id: 7,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    category: "clothes",
     image: p7_img,
     new_price: 85.0,
     old_price: 120.5,
@@ -95,7 +95,7 @@ let all_product = [
   {
     id: 8,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    category: "clothes",
     image: p8_img,
     new_price: 85.0,
     old_price: 120.5,
@@ -103,7 +103,7 @@ let all_product = [
   {
     id: 9,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    category: "clothes",
     image: p9_img,
     new_price: 85.0,
     old_price: 120.5,
@@ -111,7 +111,7 @@ let all_product = [
   {
     id: 10,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    category: "clothes",
     image: p10_img,
     new_price: 85.0,
     old_price: 120.5,
@@ -119,7 +119,7 @@ let all_product = [
   {
     id: 11,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    category: "clothes",
     image: p11_img,
     new_price: 85.0,
     old_price: 120.5,
@@ -127,7 +127,7 @@ let all_product = [
   {
     id: 12,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    category: "clothes",
     image: p12_img,
     new_price: 85.0,
     old_price: 120.5,
@@ -135,7 +135,7 @@ let all_product = [
   {
     id: 13,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
+    category: "clothes",
     image: p13_img,
     new_price: 85.0,
     old_price: 120.5,
@@ -143,7 +143,7 @@ let all_product = [
   {
     id: 14,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
+    category: "clothes",
     image: p14_img,
     new_price: 85.0,
     old_price: 120.5,
@@ -151,7 +151,7 @@ let all_product = [
   {
     id: 15,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
+    category: "clothes",
     image: p15_img,
     new_price: 85.0,
     old_price: 120.5,
@@ -159,7 +159,7 @@ let all_product = [
   {
     id: 16,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
+    category: "clothes",
     image: p16_img,
     new_price: 85.0,
     old_price: 120.5,
@@ -167,7 +167,7 @@ let all_product = [
   {
     id: 17,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
+    category: "clothes",
     image: p17_img,
     new_price: 85.0,
     old_price: 120.5,

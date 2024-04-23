@@ -10,13 +10,13 @@ import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div>
+    <>
       <BrowserRouter>
       <Navbar/>
       <Routes>
         <Route path = '/' element = {<Shop/>}/>
         <Route path = '/clothes' element = {<ShopCategory category='clothes'/>}/>
-        <Route path = '/tech' element = {<shopCategory category='tech'/>}/>
+        <Route path = '/tech' element = {<ShopCategory category='tech'/>}/>
         <Route path = '/product' element = {<Product/>}>
           <Route path = ':productId' element = {<Product/>}/>
         </Route>
@@ -25,7 +25,7 @@ function App() {
       </Routes>
       <Footer/>
       </BrowserRouter>
-    </div>
+    </>
   );
 }
 
