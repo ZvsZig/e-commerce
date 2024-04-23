@@ -6,25 +6,26 @@ import ShopCategory from './pages/ShopCategory';
 import Product from './pages/Product';
 import Cart from './pages/Cart';
 import LoginSignup from './pages/LoginSignup';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div>
+    <>
       <BrowserRouter>
       <Navbar/>
       <Routes>
         <Route path = '/' element = {<Shop/>}/>
-        <Route path = '/mens' element = {<ShopCategory category='mens'/>}/>
-        <Route path = '/womens' element = {<shopCategory category='womens'/>}/>
-        <Route path = '/kids' element = {<shopCatergory category='kids'/>}/>
+        <Route path = '/clothes' element = {<ShopCategory category='clothes'/>}/>
+        <Route path = '/tech' element = {<ShopCategory category='tech'/>}/>
         <Route path = '/product' element = {<Product/>}>
           <Route path = ':productId' element = {<Product/>}/>
         </Route>
         <Route path = '/cart' element = {<Cart/>}/>
         <Route path = '/login' element = {<LoginSignup/>}/>
       </Routes>
+      <Footer/>
       </BrowserRouter>
-    </div>
+    </>
   );
 }
 
