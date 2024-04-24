@@ -28,6 +28,29 @@ const ProductDisplay = (props) => {
                     <img src={star_dull_icon} alt='' />
                     <p>(314)</p>
                 </div>
+                <div className='productdisplay-right-prices'>
+                    <div className='productdisplay-right-price-old'>${product.old_price}</div>
+                    <div className='productdisplay-right-price-new'>${product.new_price}</div>
+                </div>
+                <div className='productdisplay-right-description'>
+                    This is the best piece of merch you can buy. Gucci who? Balenciaga who?
+                    What other shop sells power armor prosthesis and fashionable garments.
+                    If you would like to pay with DogeCoin or other forms of online payment,
+                    please contact us at (222)-434-5508.
+                </div>
+                <div className='productdisplay-right-size'>
+                    <h1>Select Size</h1>
+                    <div className='productdisplay-right-size'>
+                        <div>S</div>
+                        <div>M</div>
+                        <div>L</div>
+                        <div>XL</div>
+                        <div>XXL</div>
+                    </div>
+                </div>
+                <button>Add To Cart</button>
+                <p className='productdisplay-right-category'><span>Category : </span> Human, Useable, E for Everyone</p>
+                <p className='productdisplay-right-category'><span>Tags : </span> Cracked, Fashion, Intuitive</p>
             </div>
         </div>
     )
