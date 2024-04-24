@@ -5,7 +5,7 @@ import p4_img from './product_4.png'
 
 let data_product = [
   {
-    id:1,
+    id:25,
     name: "Heavy Duty Prosthesis (Slightly Used)",
     image:p1_img,
     new_price:85.00,

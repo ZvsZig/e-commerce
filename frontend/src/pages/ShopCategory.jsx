@@ -12,6 +12,7 @@ const ShopCategory = (props) => {
 
   return (
     <div className='shop-category'>
+
       <div className='shopcategory-indexSort'>
         <p>
           <span>Showing 1-12</span> out of 36 products
@@ -26,6 +27,9 @@ const ShopCategory = (props) => {
           .map((item, i) =>
             <Item key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price} />
           )}
+      </div>
+      <div className='shopcategory-loadmore'>
+        Explore More
       </div>
     </div>
   )
