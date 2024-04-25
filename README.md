@@ -40,6 +40,11 @@ POST `/api` === was used for creating new Products and Users.
 GET `/api` === was used to retrieve data from database.
 DELETE `/api` === was used in order to be able to delete unwanted Products.
 
+GOALS: 
+-Make reactive
+-Have images on an independent storage area
+-Deploy
+
 
 ASSETS AND RESOURCES USED
 Pwnage Mouse - https://unsplash.com/@mryamazukino
