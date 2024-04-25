@@ -1,0 +1,17 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "Hello!\r This is my e-commerce page! I was inspired from the video made by GreatStacks and got some of my assets and elements are from him! \r The site runs on react and express. For my database, I used MongoDB and utilize CORS for some base level security. I also made\r use of middleware called Multer. Multer helps organize my images easier when files are being uploaded to my Mongo database. \r Speaking of images, I also integrated images from various people from unsplash whose profiles I will include in the bottom.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:admin": "cd admin && npm install && npm run build",
+    "build:frontend": "cd frontend && npm install && npm run build",
+    "build": "npm run build:admin & npm run build:frontend",
+    "start": "cd backend && npm install & node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
