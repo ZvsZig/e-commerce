@@ -17,7 +17,7 @@ const changeHandler = (e) => {
 const login = async() => {
   console.log("Login function initiated", formData)
   let responseData;
-  await fetch('http://localhost:4000/login', {
+  await fetch(`${process.env.REACT_APP_BACKEND || ""}/api/login`, {
     method: 'POST',
     headers: {
       Accept: 'application/json',
@@ -38,7 +38,7 @@ const login = async() => {
 const signup = async() => {
   console.log("Signup function initiated", formData)
   let responseData;
-  await fetch('http://localhost:4000/signup', {
+  await fetch(`${process.env.REACT_APP_BACKEND || ""}/api/signup`, {
     method: 'POST',
     headers: {
       Accept: 'application/json',
